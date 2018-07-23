@@ -9,5 +9,5 @@ class Anagram
   end   
 end
 
-hi = Anagram.new(hello)
+hi = Anagram.new("hello")
 hi.match
