@@ -4,7 +4,4 @@ class Anagram
     @word=word
   end
   attr_accessor :word
-  def detector
-    word.match
-  end
 end
