@@ -5,6 +5,6 @@ class Anagram
   end
   attr_accessor :word
   def match(array)
-    array.select {|x| x.split("").sort == @name.split("").sort}
+    array.select {|x| x.split("").sort == @word.split("").sort}
   end   
 end
