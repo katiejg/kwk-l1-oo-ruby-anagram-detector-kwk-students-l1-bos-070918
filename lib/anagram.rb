@@ -8,3 +8,6 @@ class Anagram
     array.select {|x| x.split("").sort == @word.split("").sort}
   end   
 end
+
+hi = Anagram.new(hello)
+hi.match
